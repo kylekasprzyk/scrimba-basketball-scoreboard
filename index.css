@@ -1,0 +1,126 @@
+@font-face {
+    font-family: CursedTimerUlil;
+    src: url("./fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    color: white;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 35.9375rem;
+    height: 24.0625rem;
+    min-width: 23.4375rem;
+    padding-top: 4.25rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    /* font-family: CursedTimerUlil, sans-serif; */
+}
+
+.home__score {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    margin-top: 21px;
+    font-family: CursedTimerUlil, sans-serif;
+    border-radius: 5px;
+}
+
+.home__score p {
+    color: #F94F6D;
+    font-size: 90px;
+}
+
+
+.home__point__buttons {
+    margin-top: 1.625rem;
+    color: #9AABD8;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: CursedTimerUlil, sans-serif;
+}
+
+.point__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #9AABD8;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    padding-top: 5px;
+    background: #1B244A;
+    color: #9AABD8;
+}
+
+.point__btn:hover {
+    color:white;
+}
