@@ -20,7 +20,7 @@ Populated-State ![](./images/Screenshot%202023-02-16%20at%2018-15-55%20Basketbal
 
 ### Links
 
-- Live Site URL: [##](##)
+- Live Site URL: [https://kylekasprzyk.github.io/scrimba-basketball-scoreboard/](https://kylekasprzyk.github.io/scrimba-basketball-scoreboard/)
 
 ## My process
 
